@@ -1,0 +1,24 @@
+[ {
+    "name" : "St. Patricks Day",
+    "emoji" : "🍀"
+
+},
+{
+    "name" : "Easter",
+    "emoji" : "🐰" 
+},
+{
+    "name" : "4th of July",
+    "emoji" :  "🎆"
+},
+{
+    "name" : "Halloween",
+    "emoji" :  "🎃"
+},
+{
+    "name" : "Christmas",
+    "emoji" :  "🎄"
+}
+
+
+]

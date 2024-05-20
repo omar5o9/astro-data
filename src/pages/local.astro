@@ -1,0 +1,28 @@
+---
+
+import emojiHolidays from '../data/emojiHolidays.json';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Local Data</title>
+	</head>
+    <style>
+        h1 {
+            font-size: 25px;
+        }
+    </style>
+	<body>
+		<h1>Local Data</h1>
+
+        {
+            emojiHolidays.map((emoji) => (
+                <h1>{emoji.name} {emoji.emoji}</h1>
+            ))
+        }
+	</body>
+</html>
